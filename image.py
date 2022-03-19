@@ -6,9 +6,9 @@ from PIL import Image, ImageFont, ImageDraw
 async def getImageLink(word):
     NO_IMAGE_FOUND = -1
     # get the API KEY here: https://developers.google.com/custom-search/v1/overview
-    API_KEY = "AIzaSyAR5tsS9qnQcqTQApuY5qxRx31F7xXrWKE"
+    API_KEY = <Your Google API key goes here>
     # get your Search Engine ID on your CSE control panel
-    SEARCH_ENGINE_ID = "e6c328ea274f14b4f"
+    SEARCH_ENGINE_ID = <Your Search Engine ID Goes Here>
 
     service = build("customsearch", "v1",
                     developerKey=API_KEY)
