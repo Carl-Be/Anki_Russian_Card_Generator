@@ -4,7 +4,7 @@ import os
 
 
 async def getAudioLink(word):
-    FORVO_API_KEY = "82476c9922ca77e0f201bf7974b070ff"
+    FORVO_API_KEY = <Your Key Goes Here>
     word = urllib.parse.quote(word)
     url = f'https://apifree.forvo.com/action/word-pronunciations/format/json/word/{word}/id_lang_speak/138/order/rate-desc/limit/1/key/{FORVO_API_KEY}/'
     r = requests.get(str(url))
